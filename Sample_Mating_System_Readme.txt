@@ -1,0 +1,5 @@
+Sample_Mating_System.cpp presents the source code for a program that simulates a mating system and draws a sample of clutches from the simulated mating system.  Male mating success in the simulated mating system can have either a binomial or negative binomial distribution.  The total number of clutches in the population will be the number of males times the mean mating success (which is determined by the parameters specified for the underlying distribution -- see Wikipedia for the means and variances of binomial and negative binomial distributions).  The slope can be either steep or shallow, but note that the shallow slope will not always be zero if the distribution of mating success included males with no mates.
+
+This source code can be compiled in Visual Studio 2012 and probably other versions.  It may require some modification to compile on Linux.
+
+This program was used to generate the test datasets used in the BATEMANATER paper, and these datasets were analyzed using the BATEMANATER program.
